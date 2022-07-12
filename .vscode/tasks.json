@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+        {
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "label": "bundle",
+            "command": "./node_modules/.bin/esbuild ./src/parser.ts --bundle --minify --sourcemap --outfile=dist/csv-parser.js",
+            "problemMatcher": []
+        }
+    ]
+}
