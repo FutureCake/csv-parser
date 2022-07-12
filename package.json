@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "esbuild": "^0.14.49"
+    "esbuild": "^0.14.49",
+    "texsaur": "^0.6.1"
   }
 }
